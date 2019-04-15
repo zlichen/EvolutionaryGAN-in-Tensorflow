@@ -25,7 +25,7 @@ def dataset_files(root):
         glob(os.path.join(root, "*.{}".format(ext))) for ext in SUPPORTED_EXTENSIONS))
 
 
-class DCGAN(object):
+class EGAN(object):
     def __init__(self, sess, image_size=64, is_crop=False,
                  batch_size=32, sample_size=64,lowres=8,
                  z_dim=100, gf_dim=2048, df_dim=128,
