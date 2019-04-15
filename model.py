@@ -89,7 +89,7 @@ class EGAN(object):
         self.checkpoint_dir = checkpoint_dir
         self.build_model()
 
-        self.model_name = "DCGAN.model"
+        self.model_name = "EGAN.model"
 
     def build_model(self):
         self.is_training = tf.placeholder(tf.bool, name='is_training')
