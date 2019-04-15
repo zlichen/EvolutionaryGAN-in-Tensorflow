@@ -12,7 +12,7 @@ import os
 import scipy.misc
 import numpy as np
 
-from model import DCGAN
+from model import EGAN
 from utils import pp, visualize, to_json
 
 import tensorflow as tf
